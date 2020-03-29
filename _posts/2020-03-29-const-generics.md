@@ -18,7 +18,7 @@ int main() {
 }
 ```
 
-The `inner_data` array size of `my_vec` can be determined by parametric way by the `length` generic parameter.
+The `inner_data` array size of `my_vec` can be determined by the parametric way by the `length` generic parameter.
 
 In Rust, though there are still some issues to be addressed, Nightly Rust compiler is providing this ability.
 
@@ -55,7 +55,7 @@ error: array lengths can't depend on generic parameters
    |
 ```
 
-For now, rustc still has problems to compile this, I wish `rust team` would solve it in the near future.
+For now, `rustc` still has problems to compile this, I wish the `rust team` would solve it in soon.
 
 You can see the [tracking](https://github.com/rust-lang/rust/issues/43408) of this issue.
 
