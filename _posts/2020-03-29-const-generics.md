@@ -30,8 +30,6 @@ struct MyVec<T: Sized, const LENGTH: usize> {
     inner_data: [T; LENGTH],
 }
 
-const A_LEN: usize = 42;
-
 impl<T, const L: usize> MyVec<T, L> {
     pub fn new(value: T) -> Self {
         MyVec {
